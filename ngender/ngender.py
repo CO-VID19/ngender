@@ -11,6 +11,7 @@ def py2compat(name):
     except:
         pass
     return name
+# 将输入的名字解码成utf-8格式
 
 
 class Guesser(object):
